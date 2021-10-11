@@ -1,0 +1,113 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Aborting connect, error determining connect sequence.
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: create-tripples…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:8):
+; tripples must be created
+; expected:
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+; actual:
+(((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
+((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: tic-tac-toe.core-test…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
+; tripples must be created
+; expected:
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+; actual:
+(((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)))
+; 2 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 2
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: tripple…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
+; tripples must be created
+; expected:
+((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
+; actual:
+(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core꞉> 
+((1 2 3) (4 5 6) (7 8 9))
+clj꞉tic-tac-toe.core꞉> 
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core꞉> 
+#'tic-tac-toe.core-test/create-tripples
+clj꞉tic-tac-toe.core-test꞉> 
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core-test꞉> 
+((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: create-tripples…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
+; tripples must be created
+; expected:
+(identical? tripple (tripples [1 2 3 4 5 6 7 8 9]))
+; actual:
+(not (identical? ((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)) ((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: create-tripples…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
+; tripples must be created
+; expected:
+((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
+; actual:
+(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
+#'tic-tac-toe.core-test/create-tripples
+clj꞉tic-tac-toe.core-test꞉> 
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core꞉> 
+((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+clj꞉tic-tac-toe.core꞉> 
+#'tic-tac-toe.core-test/create-tripples
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: create-tripples…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
+; tripples must be created
+; expected:
+(tripple)
+; actual:
+(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: create-tripples…
+; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
+; tripples must be created
+; expected:
+(((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)))
+; actual:
+(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
+; Evaluating file: core_test.clj
+#'tic-tac-toe.core-test/create-tripples
+; Running test: create-tripples…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉tic-tac-toe.core-test꞉> 
