@@ -4,110 +4,219 @@
 ; Please see https://calva.io/output/ for more info.
 ; Happy coding! ♥️
 
-; Aborting connect, error determining connect sequence.
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Syntax error compiling at (e:\Pro\Programming\Clojure\2021\tic-tac-toe\src\tic_tac_toe\core.clj:65:1).
+; Unable to resolve symbol: who-won in this context
 clj꞉tic-tac-toe.core꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: create-tripples…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:8):
-; tripples must be created
-; expected:
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
-; actual:
-(((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)))
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
-((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: tic-tac-toe.core-test…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
-; tripples must be created
-; expected:
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
-; actual:
-(((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)))
-; 2 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 2
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: tripple…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
-; tripples must be created
-; expected:
-((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
-; actual:
-(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
-clj꞉tic-tac-toe.core꞉> 
+current board:
 ((1 2 3) (4 5 6) (7 8 9))
+player: o
+current board:
+((o 2 3) (4 5 6) (7 8 9))
+player: x
+current board:
+((o x 3) (4 5 6) (7 8 9))
+player: o
+current board:
+((o x o) (4 5 6) (7 8 9))
+player: x
+current board:
+((o x o) (x 5 6) (7 8 9))
+player: o
+current board:
+((o x o) (x o 6) (7 8 9))
+player: x
+current board:
+((o x o) (x o x) (7 8 9))
+player: o
+current board:
+((o x o) (x o x) (o 8 9))
+player: x
+current board:
+((o x o) (x o x) (o x 9))
+player: o
+current board:
+((o x o) (x o x) (o x o))
+player: x
+; Execution error (NullPointerException) at tic-tac-toe.core/change-board (REPL:41).
+; null
 clj꞉tic-tac-toe.core꞉> 
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+:x
 clj꞉tic-tac-toe.core꞉> 
-#'tic-tac-toe.core-test/create-tripples
-clj꞉tic-tac-toe.core-test꞉> 
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
-clj꞉tic-tac-toe.core-test꞉> 
-((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: create-tripples…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
-; tripples must be created
-; expected:
-(identical? tripple (tripples [1 2 3 4 5 6 7 8 9]))
-; actual:
-(not (identical? ((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)) ((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))))
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: create-tripples…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
-; tripples must be created
-; expected:
-((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7))
-; actual:
-(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
-#'tic-tac-toe.core-test/create-tripples
-clj꞉tic-tac-toe.core-test꞉> 
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+:o
 clj꞉tic-tac-toe.core꞉> 
-((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7))
+nil
 clj꞉tic-tac-toe.core꞉> 
-#'tic-tac-toe.core-test/create-tripples
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: create-tripples…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
-; tripples must be created
-; expected:
-(tripple)
-; actual:
-(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: create-tripples…
-; FAIL in tic-tac-toe.core-test/create-tripples (core_test.clj:9):
-; tripples must be created
-; expected:
-(((1 2 3) (4 5 6) (7 8 9) (2 5 8) (3 6 9) (1 4 7) (1 5 9) (3 5 7)))
-; actual:
-(((1 2 3) (4 5 6) (7 8 9) (1 4 7) (2 5 8) (3 6 9) (1 5 9) (3 5 7)))
-; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
-; Evaluating file: core_test.clj
-#'tic-tac-toe.core-test/create-tripples
-; Running test: create-tripples…
-; 1 tests finished, all passing 👍, ns: 1, vars: 1
-clj꞉tic-tac-toe.core-test꞉> 
+; Execution error (NullPointerException) at tic-tac-toe.core/eval2267 (REPL:67).
+; null
+clj꞉tic-tac-toe.core꞉> 
+current board:
+((1 2 3) (4 5 6) (7 8 9))
+nil
+player: o
+current board:
+((o 2 3) (4 5 6) (7 8 9))
+nil
+player: x
+current board:
+((o 2 3) (x 5 6) (7 8 9))
+nil
+player: o
+current board:
+((o o 3) (x 5 6) (7 8 9))
+nil
+player: x
+current board:
+((o o 3) (x 5 x) (7 8 9))
+nil
+player: o
+current board:
+((o o o) (x 5 x) (7 8 9))
+nil
+player: x
+; Execution error (NullPointerException) at tic-tac-toe.core/change-board (REPL:41).
+; null
+clj꞉tic-tac-toe.core꞉> 
+current board:
+((1 2 3) (4 5 6) (7 8 9))
+nil
+[1 2 3 4 5 6 7 8 9]
+player: o
+current board:
+((o 2 3) (4 5 6) (7 8 9))
+nil
+[o 2 3 4 5 6 7 8 9]
+player: x
+current board:
+((o 2 3) (4 x 6) (7 8 9))
+nil
+[o 2 3 4 x 6 7 8 9]
+player: o
+current board:
+((o o 3) (4 x 6) (7 8 9))
+nil
+[o o 3 4 x 6 7 8 9]
+player: x
+current board:
+((o o 3) (4 x x) (7 8 9))
+nil
+[o o 3 4 x x 7 8 9]
+player: o
+current board:
+((o o o) (4 x x) (7 8 9))
+nil
+[o o o 4 x x 7 8 9]
+player: x
+; Execution error (NullPointerException) at tic-tac-toe.core/change-board (REPL:41).
+; null
+clj꞉tic-tac-toe.core꞉> 
+current board:
+((1 2 3) (4 5 6) (7 8 9))
+nil
+[1 2 3 4 5 6 7 8 9]
+player: o
+current board:
+((:o 2 3) (4 5 6) (7 8 9))
+nil
+[:o 2 3 4 5 6 7 8 9]
+player: x
+current board:
+((:o 2 3) (4 :x 6) (7 8 9))
+nil
+[:o 2 3 4 :x 6 7 8 9]
+player: o
+current board:
+((:o :o 3) (4 :x 6) (7 8 9))
+nil
+[:o :o 3 4 :x 6 7 8 9]
+player: x
+current board:
+((:o :o 3) (4 :x :x) (7 8 9))
+nil
+[:o :o 3 4 :x :x 7 8 9]
+player: o
+current board:
+((:o :o :o) (4 :x :x) (7 8 9))
+:o
+[:o :o :o 4 :x :x 7 8 9]
+ois won!
+nil
+clj꞉tic-tac-toe.core꞉> 
+current board:
+((1 2 3) (4 5 6) (7 8 9))
+nil
+[1 2 3 4 5 6 7 8 9]
+player: o
+current board:
+((:o 2 3) (4 5 6) (7 8 9))
+nil
+[:o 2 3 4 5 6 7 8 9]
+player: x
+current board:
+((:o :x 3) (4 5 6) (7 8 9))
+nil
+[:o :x 3 4 5 6 7 8 9]
+player: o
+current board:
+((:o :x :o) (4 5 6) (7 8 9))
+nil
+[:o :x :o 4 5 6 7 8 9]
+player: x
+current board:
+((:o :x :o) (:x 5 6) (7 8 9))
+nil
+[:o :x :o :x 5 6 7 8 9]
+player: o
+current board:
+((:o :x :o) (:x :o 6) (7 8 9))
+nil
+[:o :x :o :x :o 6 7 8 9]
+player: x
+current board:
+((:o :x :o) (:x :o :x) (7 8 9))
+nil
+[:o :x :o :x :o :x 7 8 9]
+player: o
+current board:
+((:o :x :o) (:x :o :x) (:o 8 9))
+:o
+[:o :x :o :x :o :x :o 8 9]
+o won!
+nil
+clj꞉tic-tac-toe.core꞉> 
+current board:
+((1 2 3) (4 5 6) (7 8 9))
+player: o
+current board:
+((:o 2 3) (4 5 6) (7 8 9))
+player: x
+current board:
+((:o :x 3) (4 5 6) (7 8 9))
+player: o
+current board:
+((:o :x 3) (4 :o 6) (7 8 9))
+player: x
+current board:
+((:o :x :x) (4 :o 6) (7 8 9))
+player: o
+current board:
+((:o :x :x) (4 :o :o) (7 8 9))
+player: x
+current board:
+((:o :x :x) (4 :o :o) (:x 8 9))
+player: o
+current board:
+((:o :x :x) (4 :o :o) (:x 8 :o))
+o won!
+nil
+clj꞉tic-tac-toe.core꞉> 
